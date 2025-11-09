@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html lamg="ru">
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Семестровая работа.Новости</title>
+        <title>Семестровая работа. Товары</title>
         <link rel="stylesheet" href="../styles/styles.css">
     </head>
     <body>
-        <div id="header">Хэдер</div>
-            <div id="menu">
-                <ul>
-                    <li><a href ="../index.html">Главная</a></li>
-                    <li><a href="news.html">Новости</a></li>
-                    <li><a href ="practices.html">Практики</a></li>
-                    <li><a href ="goods.html">Товары</a></li>
-                    <li><a href ="contacts.html">Контакты</a></li>
+        <div class="page-container">
+            <div class="header">Хэдер</div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
                 </ul>
             </div>
-            <h2>Товары:</h2>
-            <main>
-                <div>
-                    <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
-                    <h3>Милый Сталин</h3>
-                    <p>300 р.</p>
+            <div class="content">
+                <h2 class="section-title">Товары:</h2>
+                <div class="goods-container">
+                    <div class="goods-card">
+                        <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
+                        <h3 class="goods-title">Милый Сталин</h3>
+                        <p class="goods-price">300 р.</p>
+                    </div>
+                    <div class="goods-card">
+                        <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
+                        <h3 class="goods-title">Милый Сталин</h3>
+                        <p class="goods-price">300 р.</p>
+                    </div>
+                    <div class="goods-card">
+                        <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
+                        <h3 class="goods-title">Милый Сталин</h3>
+                        <p class="goods-price">300 р.</p>
+                    </div>
+                    <div class="goods-card">
+                        <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
+                        <h3 class="goods-title">Милый Сталин</h3>
+                        <p class="goods-price">300 р.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
-                    <h3>Милый Сталин</h3>
-                    <p>300 р.</p>
-                </div>
-                <div>
-                    <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
-                    <h3>Милый Сталин</h3>
-                    <p>300 р.</p>
-                </div>
-                <div>
-                    <img src="../images/Stalin.jpg" alt="товар1" width="200" height="250">
-                    <h3>Милый Сталин</h3>
-                    <p>300 р.</p>
-                </div>
-            </main>
-        <div id="footer">Футер</div>
+            </div>
+            <div class="footer">Футер</div>
+        </div>
     </body>
 </html>
